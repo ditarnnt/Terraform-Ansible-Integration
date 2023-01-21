@@ -1,0 +1,9 @@
+---
+- name: Install Nginx
+  hosts: all
+  remote_user: admin123
+  become: yes
+
+  roles: 
+  - nginx 
+
